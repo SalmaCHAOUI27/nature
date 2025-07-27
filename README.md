@@ -1,4 +1,4 @@
-# Nature Music Website 🌿🎵
+# Nature Website 🌿🎵
 
 Welcome to the **Nature Music Website** — a peaceful digital space where you can reconnect with nature vibes and relax with soothing forest sounds. Perfect for nature lovers and anyone who wants a calm, fresh web experience.
 
@@ -14,6 +14,11 @@ Welcome to the **Nature Music Website** — a peaceful digital space where you c
 - Smooth scrolling navigation for a great user experience 🚀
 
 ---
+## About This Project
+
+This project was created on **27/07**, my birthday — a special day to celebrate creativity and growth.  
+Happy Birthday to me! 🎉🎂🎈  
+Building this was a joyful way to mark the day and share my love for nature and coding. 🌿💻
 
 ## How to Run Locally
 
