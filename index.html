@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Embrace - Reconnect with the Wild</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Welcome Message -->
+    <div class="welcome-message" id="welcomeMessage">
+        🌿 Welcome to the world of nature, take a deep breath 🌼
+    </div>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="birds.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Music Control Button -->
+    <button class="music-control" id="musicToggle">
+        <i class="fa-solid fa-play"></i>
+        <span>Play </span>
+    </button>
+
+    <!-- Volume Control -->
+    <div class="volume-control" id="volumeControl">
+        <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="50" orient="vertical">
+    </div>
+    <header class="header" id="header">
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="logo"> 
+            SC
+        </a>
+        <nav class="navigateur">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Reconnect with Nature 🌿</h2>
+            <p id="natureQuote">
+                There's a silent poetry in every breeze,
+                a story whispered by trees, and a calm that only the forest can bring.
+                Take a moment. Breathe deeply. Let the earth remind you what peace feels like.
+            </p>
+            <a href="#" id="exploreBtn">Explore More</a>
+        </div>
+
+        <div class="wrapper-login">
+            <h2>Join Our Green Tribe 🌱</h2>
+            <form action="#" id="loginForm">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required id="email">
+                    <label>Email address</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required id="password">
+                    <label>Password</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn">Enter the Forest</button>
+
+                <div class="register-link">
+                    <p>Not a member yet? <a href="#">Sign up & bloom 🌸</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+</html>
